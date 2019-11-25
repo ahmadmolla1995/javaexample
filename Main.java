@@ -18,7 +18,6 @@ public class Main {
         movies.add(new Movie("ten", 7, 2017));
 
         Collections.sort(movies);
-        System.out.println("Sort Result\n====================");
 
         for(Movie movie: movies){
             System.out.printf("Name: %s\t", movie.getName());
